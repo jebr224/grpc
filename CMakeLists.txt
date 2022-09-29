@@ -371,7 +371,7 @@ if (NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/opencensus-proto/src)
   download_archive(
     ${CMAKE_CURRENT_SOURCE_DIR}/third_party/opencensus-proto/src
     https://storage.googleapis.com/grpc-bazel-mirror/github.com/census-instrumentation/opencensus-proto/archive/v0.3.0.tar.gz
-    b7e13f0b4259e80c3070b583c2f39e53153085a6918718b1c710caf7037572b0
+    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
     opencensus-proto-0.3.0/src
   )
 endif()
